@@ -356,8 +356,8 @@ address {
   fill: #f4f4fd;
 }
 
-.team-item:hover .social-links .link,
-.team-item:focus .social-links .link {
+.team-item .social-links .link:hover,
+.team-item .social-links .link:focus {
   background-color: #404bbf;
 }
 

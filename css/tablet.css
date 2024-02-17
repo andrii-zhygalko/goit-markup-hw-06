@@ -16,6 +16,7 @@
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -78,7 +79,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  margin-right: 120px;
 }
 
 .header-logo-colored span {
@@ -103,7 +104,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 12px;
 }
 
 .address-link {
@@ -114,8 +115,8 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

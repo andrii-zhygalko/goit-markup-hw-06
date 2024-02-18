@@ -29,12 +29,11 @@
       media="screen and (min-width:1158px)" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
-          <a class="logo" href="./index.html">
-            Web
-            <span class="logo-part">Studio</span>
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span>
           </a>
           <ul class="header-menu-list">
             <li class="header-menu-item">
@@ -62,8 +61,81 @@
             </li>
           </ul>
         </address>
+        <button data-mobile-open type="button" class="open-menu-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-open-menu-btn"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div data-mobile-menu class="mobile-menu">
+        <button data-mobile-close type="button" class="mobile-close-button">
+          <svg class="mobile-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-wrapper">
+          <nav class="mobile-navigation">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-address">
+            <ul class="mobile-address-list">
+              <li>
+                <a class="mobile-address-link" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a class="mobile-address-link" href="tel:+110001111111">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+          <ul class="social-links">
+            <li class="social-icon">
+              <a class="link" href="">
+                <svg class="social-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a class="link" href="">
+                <svg class="social-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a class="link" href="">
+                <svg class="social-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a class="link" href="">
+                <svg class="social-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="hero section">
         <div class="container">
@@ -544,6 +616,7 @@
         </form>
       </div>
     </div>
-    <!-- <script src="./js/modal.js" defer="defer"></script> -->
+    <script src="./js/modal.js" defer="defer"></script>
+    <script src="./js/menu.js" defer="defer"></script>
   </body>
 </html>

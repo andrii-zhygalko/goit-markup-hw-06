@@ -12,10 +12,18 @@
   justify-content: space-between;
 }
 
-/* .header-menu-list {
+.mobile-menu {
+  display: none;
+}
+
+.open-menu-btn {
+  display: none;
+}
+
+.header-menu-list {
   display: flex;
   gap: 40px;
-} */
+}
 
 .header-menu-link {
   color: #2e2f42;
@@ -70,28 +78,25 @@
   letter-spacing: 0.03em;
 }
 
-address {
-  font-style: normal;
-}
-
 .header-address {
+  display: block;
+  font-style: normal;
   margin-left: auto;
 }
 
 .header-address-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   gap: 12px;
 }
 
 .address-link {
   color: #434455;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.16;
   letter-spacing: 0.02em;
   padding-top: 16px;
   padding-bottom: 16px;

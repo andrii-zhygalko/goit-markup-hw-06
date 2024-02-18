@@ -160,10 +160,6 @@ address {
   text-transform: capitalize;
 }
 
-.current {
-  color: #404bbf;
-}
-
 .mobile-address {
 }
 
@@ -182,6 +178,10 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.current {
+  color: #404bbf;
 }
 
 .social-links {
@@ -906,11 +906,15 @@ address {
 }
 
 .modal-checkbox-wrap {
+  position: relative; /*for checkbox centering on mobile*/
   margin-bottom: 24px;
 }
 
+.checkbox-container {
+  margin-left: 24px; /*for checkbox centering on mobile*/
+}
+
 .modal-checkbox-text {
-  position: relative;
   color: #8e8f99;
   font-size: 12px;
   font-weight: 400;
@@ -918,17 +922,16 @@ address {
   letter-spacing: 0.04em;
 }
 
-/* ========= MOBILE CHECKBOX START */
-
-/* ========= MOBILE CHECKBOX END */
-
 .modal-checkbox-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: absolute; /*for checkbox centering on mobile*/
+  top: 50%; /*for checkbox centering on mobile*/
+  left: 0%; /*for checkbox centering on mobile*/
+  transform: translateY(-50%); /*for checkbox centering on mobile*/
   width: 16px;
   height: 16px;
-  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -937,16 +940,13 @@ address {
   fill: transparent;
 }
 
-.modal-checkbox-text a {
+.modal-checkbox-link {
   white-space: nowrap;
   text-decoration: underline;
   color: #4d5ae5;
 }
 
-.modal-checbox-link {
-}
-
-.modal-checkbox:checked + .modal-checkbox-text span {
+.modal-checkbox:checked + .checkbox-container .modal-checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;

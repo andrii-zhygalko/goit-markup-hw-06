@@ -97,7 +97,7 @@
                 </a>
               </li>
               <li>
-                <a class="mobile-address-link" href="tel:+110001111111">
+                <a class="mobile-address-link current" href="tel:+110001111111">
                   +11 (000) 111-11-11
                 </a>
               </li>
@@ -573,7 +573,7 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-left">
           <a class="footer-logo-colored" href="./index.html">
@@ -638,7 +638,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div data-modal class="backdrop">
       <div class="modal">
         <button data-modal-close type="button" class="modal-close-button">
@@ -702,15 +702,16 @@
               id="user-privacy"
               value="true"
               class="modal-checkbox visually-hidden" />
-            <label for="user-privacy" class="modal-checkbox-text">
-              <span class="modal-checkbox-icon">
-                <svg class="modal-checkmark" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkbox-mark"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="" class="modal-checbox-link">Privacy Policy</a>
-            </label>
+            <div class="checkbox-container">
+              <label for="user-privacy" class="modal-checkbox-text">
+                <span class="modal-checkbox-icon">
+                  <svg class="modal-checkmark" width="10" height="8">
+                    <use
+                      href="./images/icons.svg#icon-checkbox-mark"></use></svg></span
+                >I accept the terms and conditions of the
+                <a href="" class="modal-checkbox-link">Privacy Policy</a>
+              </label>
+            </div>
             <!-- <label for="user-privacy" class="modal-checkbox-text">
               <span class="modal-checkbox-icon">
                 <svg class="modal-checkmark" width="10" height="8">

@@ -4,78 +4,32 @@
 }
 
 .section {
-  margin: 0 auto;
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .header-container {
   justify-content: center;
 }
 
-.mobile-menu {
-  display: none;
-}
-
-.header-menu-list {
-  display: flex;
-  gap: 40px;
-}
-
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-}
-
-.header-menu-link:active {
-  color: #404bbf;
-}
-
 .logo {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   margin-right: 76px;
-}
-
-.logo-part {
-  color: #2e2f42;
-  letter-spacing: 0.03em;
 }
 
 .header-address {
   display: flex;
-  font-style: normal;
   margin-left: auto;
 }
 
 .header-address-list {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 40px;
 }
 
 .address-link {
-  color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
+  padding: 24px 0;
 }
 
 .hero {

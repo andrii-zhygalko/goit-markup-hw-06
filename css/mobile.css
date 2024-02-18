@@ -57,8 +57,7 @@ address {
 
 .section {
   margin: 0 auto;
-  padding-bottom: 96px;
-  padding-top: 96px;
+  padding: 96px 0;
 }
 
 .header {
@@ -89,15 +88,6 @@ address {
 .header-menu-list {
   display: none;
 }
-
-/* =====================MENU START=========================== */
-
-/* .mobile-menu-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-} */
 
 .mobile-menu {
   z-index: 1;
@@ -134,21 +124,12 @@ address {
   background: transparent;
 }
 
-.mobile-close-icon {
-}
-
-.mobile-navigation {
-}
-
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-bottom: 168px;
   /* margin-bottom: 40px; */
-}
-
-.mobile-menu-item {
 }
 
 .mobile-menu-link {
@@ -158,9 +139,6 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.mobile-address {
 }
 
 .mobile-address-list {
@@ -182,18 +160,6 @@ address {
 
 .current {
   color: #404bbf;
-}
-
-.social-links {
-}
-
-.social-icon {
-}
-
-.link {
-}
-
-.social-icon-svg {
 }
 
 .mobile-menu .social-links {
@@ -232,49 +198,6 @@ address {
   background-color: #404bbf;
 }
 
-/* =====================MENU END=========================== */
-
-.header-menu-item {
-  /* position: relative; */
-}
-
-/* .header-menu-link {
-  color: #2e2f42;
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .current {
-  position: relative;
-  color: #404bbf;
-} */
-
-/* .current::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-  content: "";
-} */
-
-/* .header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-} */
-
-/* .header-menu-link:active {
-  color: #404bbf;
-} */
-
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -292,32 +215,8 @@ address {
 }
 
 .header-address {
-  font-style: normal;
   display: none;
-  margin-left: auto;
 }
-
-/* .header-address-list {
-  
-} */
-
-/* .address-link {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .address-link:hover,
-.address-link:focus {
-  color: #404bbf;
-} */
 
 .hero {
   padding: 72px 0;

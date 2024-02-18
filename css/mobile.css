@@ -593,25 +593,18 @@ address {
 
 .footer {
   background: #2e2f42;
-  padding: 100px 0 100px;
+  padding: 96px 0 96px;
 }
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.footer-left {
-  margin-right: 120px;
-}
-
-.footer .social-media-text {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
+.footer-cta {
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .footer-logo-colored {
@@ -646,7 +639,17 @@ address {
 }
 
 .social-container {
-  margin-right: 80px;
+  margin-bottom: 72px;
+}
+
+.footer .social-media-text {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer .social-links {
@@ -684,13 +687,15 @@ address {
 }
 
 .footer-subscribe-wrapper {
+  text-align: center;
 }
 
 .footer-subscribe-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-email-label {
 }

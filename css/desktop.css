@@ -148,16 +148,19 @@
 }
 
 .footer {
-  background: #2e2f42;
   padding: 100px 0 100px;
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0;
 }
+/* .footer-tablet-layout {
+  display: flex;
+} */
 
-.footer-left {
+.footer-cta {
   margin-right: 120px;
 }
 
@@ -240,10 +243,11 @@
 }
 
 .footer-subscribe-wrapper {
+  padding: 0;
 }
 
 .footer-subscribe-form {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 24px;

@@ -783,9 +783,9 @@ address {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 288px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -917,6 +917,10 @@ address {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
+/* ========= MOBILE CHECKBOX START */
+
+/* ========= MOBILE CHECKBOX END */
 
 .modal-checkbox-icon {
   display: inline-flex;

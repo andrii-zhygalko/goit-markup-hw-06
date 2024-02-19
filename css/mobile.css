@@ -498,11 +498,7 @@ address {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.footer-cta {
-  text-align: center;
-  margin-bottom: 72px;
+  gap: 72px;
 }
 
 .footer-logo-colored {
@@ -518,6 +514,7 @@ address {
 .footer-logo {
   color: #f4f4fd;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .footer a {
@@ -533,10 +530,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-
-.social-container {
-  margin-bottom: 72px;
 }
 
 .footer .social-media-text {

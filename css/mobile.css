@@ -50,7 +50,6 @@ address {
 
 .container {
   max-width: 320px;
-  width: 100%;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -90,8 +89,9 @@ address {
 }
 
 .mobile-menu {
-  z-index: 1;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -106,6 +106,8 @@ address {
   visibility: hidden;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+  z-index: 1;
 }
 
 .mobile-close-button {
@@ -124,12 +126,14 @@ address {
   background: transparent;
 }
 
+.mobile-navigation {
+  margin-bottom: auto;
+}
+
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
-  /* margin-bottom: 40px; */
 }
 
 .mobile-menu-link {
@@ -145,8 +149,8 @@ address {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
-  /* margin-bottom: 40px; */
+  /* margin-bottom: 48px; */
+  margin-bottom: 30px;
 }
 
 .mobile-address-link {
@@ -219,6 +223,7 @@ address {
 }
 
 .hero {
+  max-width: 320px;
   padding: 72px 0;
   background: #2e2f42;
   background-image: linear-gradient(
@@ -501,6 +506,10 @@ address {
   gap: 72px;
 }
 
+.footer-cta {
+  text-align: center;
+}
+
 .footer-logo-colored {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -523,6 +532,7 @@ address {
 }
 
 .footer-text {
+  text-align: left;
   color: #f4f4fd;
   display: block;
   font-size: 16px;
